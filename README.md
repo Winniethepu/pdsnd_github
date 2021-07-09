@@ -29,4 +29,4 @@ The followings are bikeshare data from three cities metioned:
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This project was inspired by [sujileeme](https://gist.github.com/sujinleeme/ec1f50bb0b6081a0adcf9dd84f4e6271). I really appreciate her opinion.
