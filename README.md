@@ -13,8 +13,12 @@ To complete this project, you need the followings to be installed:
 - Text editor like [Atom](https://atom.io)
 - Terminal application
 
-### Files used
-Include the files used
+## Files and Template
+
+The followings are bikeshare data from three cities metioned:
+- [Chiacgo](https://www.divvybikes.com/system-data)
+- [Washinton](https://www.capitalbikeshare.com/system-data)
+- [New York City](https://www.citibikenyc.com/system-data)
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
