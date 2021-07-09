@@ -20,5 +20,13 @@ The followings are bikeshare data from three cities metioned:
 - [Washinton](https://www.capitalbikeshare.com/system-data)
 - [New York City](https://www.citibikenyc.com/system-data)
 
+## Questions to answer
+
+1.  Most popular travel time (month, week and day);
+2.  Most popular station(start station and end station);
+3.  Trip duration (average travel time);
+4.  User info (counts of age and gender distribution ).
+
+
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
