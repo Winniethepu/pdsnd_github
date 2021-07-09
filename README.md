@@ -4,6 +4,7 @@
 Include the date you created this project and README file.
 
 # Explore US Bikeshare Data
+In this project, you will make use of [Python](https://www.python.org/downloads/) to explore bikeshare data related to  three major cities in the United States—_Chicago_, _New York City_, and _Washington_. You will write code to import the data and answer interesting questions by filtering and computing statistics. Finally, you will need to summery the data into a Powerpoint to report.  
 
 ### Description
 Describe what your project is about and what it does
