@@ -38,6 +38,9 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+    if city=='Washintong' and month=='7':
+        print('We currently don\'t have this data, would you like to choose another city or a different time?' )
+
 
 def load_data(city, month, day):
     """
@@ -122,8 +125,8 @@ def trip_duration_stats(df):
     average_travel_time=df['Trip Duration'].mean()
     print('The average trave time is:',average_travel_time)
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print("\nThis took %s seconds.\n '_'*40" % (time.time() - start_time))
+
 
 
 def user_stats(df):
@@ -154,8 +157,8 @@ def user_stats(df):
 
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print("\nThis took %s seconds.\n '_'*40" % (time.time() - start_time))
+
 
 
 def main():
