@@ -35,6 +35,9 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
+    if city=='Washintong' and month=='7':
+        print('We currently don\'t have this data, would you like to choose another city or a different time?' )
+
 
 def load_data(city, month, day):
     """
