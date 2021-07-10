@@ -10,6 +10,11 @@ In this project, you will make use of [Python](https://www.python.org/downloads/
 To complete this project, you need the followings to be installed:
 
 - [Python 3.9.6](https://www.python.org/downloads/) (_latest version_) and related packages like Panda and Numpy.
+    * You can check whether you have Python installed or the version of it by putting this code in your Terminal:
+    ```
+    $ python -V
+
+    ```
 - Text editor like [Atom](https://atom.io)
 - Terminal application
 
