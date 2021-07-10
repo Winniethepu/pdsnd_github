@@ -16,14 +16,13 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-                            
+
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     print('Would you like to see data from Chicago,New York City or Washington?')
     city=input()
     while city.lower() not in CITY_DATA.keys():
         print('Please choose a city in the following list: chicago,new york city and washington.')
-        city=input()
-        
+
     # TO DO: get user input for month (all, january, february, ... , june)
     print('Would you like to filter the data by month or not at all? Pleaset type \'all\' for no time filter.')
     month=input()
@@ -142,15 +141,15 @@ def user_stats(df):
     print('Female:',gender_counts['Female'])
 
  # TO DO: Display earliest, most recent, and most common year of birth
- 
+
     earlist_year_of_birth=df['Birth Year'].min()
     most_recent_year_of_birth=df['Birth Year'].max()
     most_common_year_of_birth=df['Birth Year'].mode()[0]
     print('Earliest year of birth:',earlist_year_of_birth)
     print('Most recent year of birth:',most_recent_year_of_birth)
     print('Most common year of birth:',most_common_year_of_birth)
-   
-    
+
+
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
